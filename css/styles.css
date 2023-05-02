@@ -1,17 +1,17 @@
-a {
-  color: skyblue;
-  text-decoration: none;
+p > a {
+  color: rgb(220, 223, 208);
 }
 
-a:visited {
-  color: rgb(189, 155, 255);
+p > a:visited {
+  color: rgb(105, 114, 104);
 }
 
-a:hover, a:visited:hover {
+p > a:hover, a:visited:hover {
   color: orange;
+  text-decoration: underline;
 }
 
-a:active {
+p > a:active {
   color: red;
 }
 
@@ -19,24 +19,33 @@ p > a:hover {
   text-decoration: underline;
 }
 
-body {
-  background-color: rgb(42, 42, 42);
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+p {
   padding: 15px;
+}
+
+body {
+  background-color: rgb(1, 30, 56);
+  color: rgb(160, 192, 226);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header > a {
   display: inline-block;
-  border: 2px solid rgb(175, 175, 175);
+  border: 2px solid rgb(121, 99, 128);
   border-radius: 25px;
-  background-color: rgb(77, 77, 77);
+  background-color: rgb(63, 49, 85);
+  color: rgb(220, 223, 208);
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  font-weight: bold;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 40px;
   padding-right: 40px;
+  text-decoration: underline;
+}
+
+header > a:visited {
+  color: rgb(105, 114, 104);
 }
 
 figure {
@@ -46,17 +55,21 @@ figure {
 }
 
 h1 {
-  background-color: rgb(77, 77, 77);
-  border: 2px solid rgb(175, 175, 175);
+  background-color: rgb(63, 49, 85);
+  border: 2px solid rgb(121, 99, 128);
   border-radius: 5px;
+  color: rgb(220, 223, 208);
+  font-family: "Times New Roman", Times, serif;
   padding: 16px;
   text-align: center;
 }
 
 h2 {
-  background-color: rgb(77, 77, 77);
-  border: 2px solid rgb(175, 175, 175);
+  background-color: rgb(63, 49, 85);
+  border: 2px solid rgb(121, 99, 128);
   border-radius: 5px;
+  color: rgb(220, 223, 208);
+  font-family: "Times New Roman", Times, serif;
   padding: 8px;
   text-align: center;
 }
@@ -75,7 +88,7 @@ ul {
 }
 
 .p_container > p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   margin-top: 0px;
   text-align: justify;
@@ -91,7 +104,7 @@ ul {
   vertical-align: top;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .ed_website, .genre {
