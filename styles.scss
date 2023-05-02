@@ -1,0 +1,111 @@
+$font_size: 20px;
+$header_color: rgb(77, 77, 77);
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:visited {
+  color: rgb(189, 155, 255);
+}
+
+a:hover, a:visited:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+  
+header > a {
+  display: inline-block;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 25px;
+  background-color: $header_color;
+  font-size: $font_size;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+figure {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+h1 {
+  background-color: $header_color;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 5px;
+  padding: 16px;
+  text-align: center;
+}
+
+h2 {
+  background-color: $header_color;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 8px
+}
+
+.p_container {
+  column-count: 3;
+  column-gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.p_container > p {
+  font-size: $font_size;
+  line-height: 25px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.container {
+  text-align: center;
+}
+
+.centered_ul {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: $font_size;
+}
+
+.ed_website, .genre {
+  font-weight: bold;
+}
+
+.college, .subgenre {
+  font-style: italic;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.course, .song {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
