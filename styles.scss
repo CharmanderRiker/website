@@ -4,37 +4,6 @@ $header_bg_color: rgb(63, 49, 85);
 $header_color: rgb(220, 223, 208);
 $header_font: 'Times New Roman', Times, serif;
 
-p > a {
-    color: rgb(220, 223, 208);
-}
-
-p > a:visited {
-  color: rgb(105, 114, 104);
-}
-
-p > a:hover, a:visited:hover {
-  color: orange;
-  text-decoration: underline;
-}
-
-p > a:active {
-  color: red;
-}
-
-p > a:hover {
-  text-decoration: underline;
-}
-
-p {
-  padding: 15px;
-}
-
-body {
-  background-color: rgb(1, 30, 56);
-  color: rgb(160, 192, 226);
-  font-family: Arial, Helvetica, sans-serif;
-}
-  
 header > a {
   display: inline-block;
   border: 2px solid $border_color;
@@ -47,11 +16,26 @@ header > a {
   padding-bottom: 8px;
   padding-left: 40px;
   padding-right: 40px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-header > a:visited {
-  color: rgb(105, 114, 104);
+body {
+  background-color: rgb(1, 30, 56);
+  color: rgb(160, 192, 226);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+a:hover, a:visited:hover {
+  color: rgb(252, 141, 69);
+}
+
+a:active {
+  color: rgb(213, 72, 80);
+}
+
+p > a {
+  color: rgb(220, 223, 208);
 }
 
 figure {
